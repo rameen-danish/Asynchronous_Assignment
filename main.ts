@@ -6,12 +6,12 @@ console.log("\n \t \t ***Asynchronous Assignment*** ");
 /*Question # 1
 Write a simple asynchronous TypeScript function fetchGreeting that returns a greeting message after a 2-second delay using setTimeout.*/
 console.log("\n Question # 1");
-async function fetchGreeting(){                       //simple asynchronous TypeScript function
-     setTimeout(()=>{                                //timeout function of 2 seconds for delaying message 
-    console.log("Hello World")
+async function fetchGreeting(){                      //simple asynchronous TypeScript function
+     setTimeout(()=>{                               //timeout function of 2 seconds for delaying message 
+   console.log("Eid Mubarak!")
     },2000)
 }
-fetchGreeting()                                    //function calling
+fetchGreeting()                                //function calling
 
 /*Question # 2
 Write a function simulateTask that simulates a task by logging "Task started", waits for 1 second, and then logs "Task completed". Use setTimeout for the delay.*/
